@@ -1,0 +1,16 @@
+site_id,lat,lon,diameter_m,excavation_depth_m,ice_confirmed,region,source
+Dundas_02,46.35,176.89,11.0,0.42,Yes,Arcadia Planitia,Dundas et al. (2014) Table 1 (scaling)
+Dundas_03,44.22,164.2,9.5,0.47,Yes,Arcadia Planitia,Dundas et al. (2014) Table 1 / ESP_016954
+Dundas_04,50.51,265.2,8.0,0.42,Yes,Acidalia Planitia,Dundas et al. (2014) Table 1 (scaling)
+Dundas_05,39.11,190.25,14.5,0.9,Yes,Arcadia Planitia,Dundas et al. (2014) Table 1 (scaling)
+Byrne_01,47.43,112.01,10.5,0.5,Yes,Utopia Planitia,Byrne et al. (2009)
+HiRISE_Ice_01,43.88,204.35,13.0,0.65,Yes,Arcadia Planitia,NASA HiRISE ESP_025840_2240 (scaling)
+HiRISE_Ice_02,46.14,188.51,12.0,0.48,Yes,Arcadia Planitia,NASA HiRISE ESP_016874_2265 (scaling)
+HiRISE_Ice_03,43.28,164.22,10.0,0.45,Yes,Arcadia Planitia margin,NASA HiRISE ESP_014264_2235 (scaling)
+HiRISE_Ice_04,44.33,152.93,11.5,0.52,Yes,Phlegra Dorsa,NASA HiRISE ESP_017561_2245 (scaling)
+HiRISE_Ice_05,50.65,278.4,9.0,0.4,Yes,Acidalia Planitia,NASA HiRISE ESP_015908_2310 (scaling)
+HiRISE_Ice_06,55.55,150.63,8.5,0.38,Yes,Utopia margin,Byrne et al. (2009) Site 1 / ESP_015926
+HiRISE_Ice_07,46.57,194.85,18.0,0.55,Yes,Arcadia Planitia,NASA HiRISE ESP_018522_2270 (Bramson et al. 2015 terraced scene)
+HiRISE_Ice_08,60.97,238.74,12.0,0.3,Yes,Vastitas Borealis,NASA HiRISE ESP_019351_2415 (scaling)
+HiRISE_Ice_09,64.28,231.52,14.0,0.25,Yes,Vastitas Borealis,NASA HiRISE ESP_019826_2445 (scaling)
+HiRISE_Ice_10,43.83,206.17,22.0,0.58,Yes,Arcadia Planitia,NASA HiRISE ESP_035189_2240 (Bramson et al. 2015 terraced scene)

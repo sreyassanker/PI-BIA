@@ -1,0 +1,11 @@
+site_id,lat,lon,diameter_m,excavation_depth_m,ice_confirmed,region,source
+Dry_01,40.1,157.93,8.0,,No,Arcadia Planitia margin,Dundas et al. (2014) Table 3
+Dry_02,40.31,221.22,7.25,,No,Arcadia Planitia margin,Dundas et al. (2014) Table 3
+Dry_03,40.33,185.5,3.0,,No,Arcadia Planitia,Dundas et al. (2014) Table 3
+Dry_04,43.75,203.32,5.25,,No,Arcadia Planitia,Dundas et al. (2014) Table 3
+Dry_05,39.55,190.05,6.5,,No,Arcadia Planitia,NASA HiRISE ESP_011428_2200
+Dry_06,46.46,244.95,5.0,,No,Acidalia Planitia,NASA HiRISE ESP_011571_2270
+Dry_07,44.64,164.52,7.0,,No,Arcadia Planitia margin,NASA HiRISE ESP_035296_2250
+Dry_08,44.76,15.81,8.5,,No,Acidalia/Arabia margin,NASA HiRISE ESP_011619_2250
+Dry_09,39.71,104.12,12.0,,No,Utopia Planitia margin,NASA HiRISE ESP_011563_2200
+Dry_10,37.32,182.2,6.0,,No,Arcadia Planitia south,NASA HiRISE ESP_019195_2175

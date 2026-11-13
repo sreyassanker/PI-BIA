@@ -1,0 +1,27 @@
+Site_ID,Latitude_deg_N,Longitude_deg_E,Class,Ground_Truth_Ice,Measured_Depth_m,Predicted_Ice_Probability,Epistemic_Uncertainty_sigma,Predicted_Depth_InSample_m,Predicted_Depth_LOOCV_m
+Dundas_02,46.35,176.89,Ice Excavation,1,0.42,0.8098,0.1187,0.5436,0.572
+Dundas_03,44.22,164.2,Ice Excavation,1,0.47,0.4043,0.1591,0.4673,0.4559
+Dundas_04,50.51,265.2,Ice Excavation,1,0.42,0.8058,0.1986,0.4231,0.4634
+Dundas_05,39.11,190.25,Ice Excavation,1,0.9,0.3933,0.1825,0.7122,0.6544
+Byrne_01,47.43,112.01,Ice Excavation,1,0.5,0.821,0.2139,0.4874,0.4865
+HiRISE_Ice_01,43.88,204.35,Ice Excavation,1,0.65,0.7727,0.1639,0.6228,0.6107
+HiRISE_Ice_02,46.14,188.51,Ice Excavation,1,0.48,0.8302,0.11,0.5502,0.5589
+HiRISE_Ice_03,43.28,164.22,Ice Excavation,1,0.45,0.3639,0.146,0.4986,0.5095
+HiRISE_Ice_04,44.33,152.93,Ice Excavation,1,0.52,0.6202,0.1586,0.5324,0.5292
+HiRISE_Ice_05,50.65,278.4,Ice Excavation,1,0.4,0.875,0.1838,0.3685,0.2362
+HiRISE_Ice_06,55.55,150.63,Ice Excavation,1,0.38,0.9836,0.0298,0.3266,0.3037
+HiRISE_Ice_07,46.57,194.85,Ice Excavation,1,0.55,0.8603,0.1069,0.5527,0.5525
+HiRISE_Ice_08,60.97,238.74,Ice Excavation,1,0.3,0.9981,0.0053,0.2903,0.2864
+HiRISE_Ice_09,64.28,231.52,Ice Excavation,1,0.25,0.9993,0.0021,0.2155,0.2039
+HiRISE_Ice_10,43.83,206.17,Ice Excavation,1,0.58,0.7689,0.1615,0.6259,0.6396
+Dry_01,40.1,157.93,Dry Control,0,,0.3036,0.1412,,
+Dry_02,40.31,221.22,Dry Control,0,,0.3908,0.1868,,
+Dry_03,40.33,185.5,Dry Control,0,,0.4481,0.1626,,
+Dry_04,43.75,203.32,Dry Control,0,,0.7629,0.1675,,
+Dry_05,39.55,190.05,Dry Control,0,,0.2372,0.1959,,
+Dry_06,46.46,244.95,Dry Control,0,,0.4425,0.3872,,
+Dry_07,44.64,164.52,Dry Control,0,,0.2996,0.3229,,
+Dry_08,44.76,15.81,Dry Control,0,,0.21,0.3011,,
+Dry_09,39.71,104.12,Dry Control,0,,0.343,0.2666,,
+Dry_10,37.32,182.2,Dry Control,0,,0.2561,0.1806,,
+Phoenix,68.2188,234.2508,Ice Excavation,1,0.05,0.9998,0.0008,0.1029,0.1519

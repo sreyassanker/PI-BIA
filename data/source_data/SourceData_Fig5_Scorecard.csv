@@ -1,0 +1,6 @@
+Rank,Site,Latitude_deg_N,Longitude_deg_E,Elevation_m,Slope_deg,Predicted_Ice_Prob,Burial_Access_Score,Slope_Safety_Score,EDL_Margin_Score,Composite_RAI,Normalized_RAI_Score
+1,Site #1,48.49,190.03,-4071,0.0,0.917,0.6597,1.0,1.0,0.533,0.8883
+2,Site #2,47.43,198.67,-4001,0.03,0.898,0.644,0.997,1.0,0.497,0.8283
+3,Site #3,46.42,193.72,-3994,0.0,0.861,0.6338,1.0,0.9976,0.458,0.7633
+4,Site #4,45.42,190.34,-4030,0.03,0.817,0.6288,0.997,1.0,0.419,0.6983
+5,Site #5,44.41,187.02,-4055,0.0,0.759,0.6188,1.0,1.0,0.378,0.63

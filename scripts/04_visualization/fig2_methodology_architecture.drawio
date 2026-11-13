@@ -1,0 +1,568 @@
+<mxfile host="app.diagrams.net" agent="Planetary Science Publication Generator" version="24.7.7" type="device">
+  <diagram id="fig2-methodology" name="Figure 2">
+    <mxGraphModel dx="1800" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===================== PAGE BACKGROUND ===================== -->
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1800" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="divider" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CBD5E1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="40" width="1.5" height="875" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL A: HEADER ===================== -->
+        <mxCell id="aLabel" value="a" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=24;fontStyle=1;fontColor=#0F172A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="38" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aTitle" value="Observation sensing regimes &amp;amp; spatial resolution scale" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=16.5;fontStyle=1;fontColor=#0F172A;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="520" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="aSub" value="Geophysical sensing depth limits and multi-scale stratigraphy across the Martian northern plains" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11.5;fontStyle=2;fontColor=#64748B;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="530" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL A: DEPTH AXIS ===================== -->
+        <mxCell id="depthTitle" value="&lt;b&gt;Depth (m)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11.5;fontColor=#334155;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="32" y="112" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axis" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="145" width="2" height="680" as="geometry" />
+        </mxCell>
+        
+        <!-- Axis Ticks & Labels -->
+        <mxCell id="tk0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="69" y="149" width="14" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="lb0" value="0" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#334155;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="28" y="140" width="38" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tk1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="69" y="229" width="14" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="lb1" value="1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#334155;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="28" y="220" width="38" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tk10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="69" y="589" width="14" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="lb10" value="10" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#334155;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="28" y="580" width="38" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Scale Break Slashes on Axis -->
+        <mxCell id="brk1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=none;rotation=-20;" vertex="1" parent="1">
+          <mxGeometry x="58" y="602" width="36" height="2.5" as="geometry" />
+        </mxCell>
+        <mxCell id="brk2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=none;rotation=-20;" vertex="1" parent="1">
+          <mxGeometry x="58" y="618" width="36" height="2.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tk15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="69" y="639" width="14" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="lb15" value="15" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#334155;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="28" y="630" width="38" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tk20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="69" y="824" width="14" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="lb20" value="20+" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#334155;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="24" y="815" width="42" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL A: COLUMN HEADERS ===================== -->
+        <mxCell id="col1Head" value="&lt;b&gt;Subsurface Stratigraphy&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="104" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="col2Head" value="&lt;b&gt;Orbital &amp;amp; In-Situ Sensing Reach&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="365" y="104" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL A: COLUMN 1 (STRATIGRAPHY) ===================== -->
+        <!-- Unit 1: Desiccated Regolith Mantle (0–1 m) -->
+        <mxCell id="lay1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="95" y="150" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Surface Basaltic Dust Lag Line (Interrupted across excavated crater and trench) -->
+        <mxCell id="surfLine1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#78350F;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="146" width="6" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="surfLine2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#78350F;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="146" width="52" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="surfLine3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#78350F;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="297" y="146" width="38" height="4" as="geometry" />
+        </mxCell>
+
+        <!-- HiRISE Sightline Arrow & Label Above Crater -->
+        <mxCell id="hiriseLabel" value="&lt;b&gt;HiRISE (25 cm/pix)&lt;/b&gt; ↓" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=9;fontColor=#0284C7;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="95" y="126" width="120" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Phoenix Lander Sightline Arrow & Label Above Surface -->
+        <mxCell id="phxLabelTop" value="&lt;b&gt;Phoenix Lander&lt;/b&gt; ↓" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=9;fontColor=#92400E;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="235" y="126" width="95" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Fresh Impact Crater: Parabolic Bowl Cavity (Geophysically Accurate Impact Morphology) -->
+        <mxCell id="craterCavity" value="" style="shape=mxgraph.basic.half_circle;fillColor=#F0F9FF;strokeColor=#0284C7;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="101" y="146" width="114" height="48" as="geometry" />
+        </mxCell>
+        <!-- Title in upper bowl -->
+        <mxCell id="craterTitle" value="&lt;b&gt;Fresh Ice Crater&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:7.5px; color:#0369A1;&quot;&gt;(0.25–0.90 m depth)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=8.5;fontColor=#0284C7;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="101" y="148" width="114" height="22" as="geometry" />
+        </mxCell>
+        <!-- Exposed Ice on crater floor with clean rounded pill (subtle boundary) -->
+        <mxCell id="craterIce" value="&lt;b&gt;Exposed Ice&lt;/b&gt;" style="rounded=1;arcSize=50;html=1;fillColor=#0284C7;strokeColor=#0369A1;strokeWidth=0.5;fontFamily=Helvetica;fontSize=7.5;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="134" y="175" width="48" height="11" as="geometry" />
+        </mxCell>
+
+        <!-- Phoenix Trench: Excavated Notch Cut Into Regolith (Open Surface Depression) -->
+        <mxCell id="phxTrenchCavity" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#92400E;strokeWidth=1.2;" vertex="1" parent="1">
+          <mxGeometry x="267" y="146" width="30" height="13" as="geometry" />
+        </mxCell>
+        <!-- Exposed Ice Layer at Trench Base (0.05 m In-Situ Anchor) -->
+        <mxCell id="phxTrenchIce" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0284C7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="268" y="155" width="28" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="phxText" value="&lt;b&gt;Trench&lt;/b&gt; (0.05 m)&lt;br&gt;&lt;font style=&quot;font-size:7.5px; color:#92400E;&quot;&gt;In-Situ Ice Proof&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=8;fontColor=#92400E;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="240" y="163" width="84" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Regolith Mantle Label at Bottom of Unit 1 -->
+        <mxCell id="regolithLabel" value="&lt;b&gt;Desiccated Regolith Mantle (0.5–1.2 m)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10;fontColor=#92400E;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="95" y="206" width="240" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Unit 2: Subsurface Cryosphere & Blind Zone (1–10 m) -->
+        <mxCell id="lay2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0F9FF;strokeColor=#DC2626;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="230" width="240" height="360" as="geometry" />
+        </mxCell>
+
+        <!-- Ice-Table Interface Line & Badge (Rendered ON TOP of lay2) -->
+        <mxCell id="iceTableLine" value="" style="line;strokeWidth=2;dashed=1;strokeColor=#0284C7;" vertex="1" parent="1">
+          <mxGeometry x="95" y="230" width="240" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="iceTableBadge" value="&lt;b&gt;Ice-Table Interface (z = D; 0.05–1.2 m)&lt;/b&gt;" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0284C7;strokeWidth=1.2;fontFamily=Helvetica;fontSize=9.5;fontColor=#0284C7;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="108" y="221" width="214" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Intermediate Cryosphere Typography -->
+        <mxCell id="bzTitle" value="&lt;b&gt;INTERMEDIATE CRYOSPHERE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=14.5;fontStyle=1;fontColor=#0369A1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="246" width="240" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="bzDepth" value="&lt;b&gt;1 – 10 m Depth Transition&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#0284C7;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="268" width="240" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="bzSub" value="&lt;i&gt;Subsurface Cryosphere: Pore-Filling &amp;amp; Excess Ice&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10;fontColor=#0284C7;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="286" width="240" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Primary Target for Human ISRU Badge -->
+        <mxCell id="isruBadge" value="&lt;b&gt;PRIMARY TARGET FOR HUMAN ISRU&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9.5px;&quot;&gt;Mechanically accessible for drills (&amp;lt; 3 m depth)&lt;/font&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#0284C7;strokeColor=#0369A1;strokeWidth=1.5;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="105" y="312" width="220" height="42" as="geometry" />
+        </mxCell>
+
+        <!-- Permafrost Cryosphere Card -->
+        <mxCell id="cryoCard" value="&lt;b&gt;Martian Permafrost Cryosphere&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px; color:#0369A1; line-height:1.3;&quot;&gt;• Pore-filling ice matrix &amp;amp; massive excess ice sheets&lt;br&gt;• Thermodynamically stable at high northern latitudes&lt;br&gt;• Unresolved by coarse orbital footprints (~300–600 km)&lt;br&gt;• Fused via PI-BIA physics-constrained learning&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#38BDF8;strokeWidth=1.2;fontFamily=Helvetica;fontSize=11;fontColor=#0284C7;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=6;" vertex="1" parent="1">
+          <mxGeometry x="105" y="374" width="220" height="196" as="geometry" />
+        </mxCell>
+
+        <!-- Scale Break Band (Unified Across Both Columns) -->
+        <mxCell id="scaleBreakBand" value="&lt;i&gt;— Scale Break: 10 m to 15 m Depth (Blind to Both Epithermal Neutron Moderation &amp;amp; Orbital Radar Sounders) —&lt;/i&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1;dashed=1;fontFamily=Helvetica;fontSize=10;fontColor=#64748B;align=center;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="95" y="598" width="510" height="34" as="geometry" />
+        </mxCell>
+
+        <!-- Unit 3: Deep Radar Sounding Domain (> 15 m) -->
+        <mxCell id="lay3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="95" y="640" width="240" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="radarDomainTitle" value="&lt;b&gt;DEEP RADAR SOUNDING DOMAIN&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#0369A1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="646" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="radarDomainSub" value="&lt;b&gt;Depths &amp;gt; 15–20 m (SHARAD / MARSIS)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontStyle=1;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="666" width="240" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="radarDomainDesc" value="Dielectric contrast resolves base of massive ice;&lt;br&gt;&lt;b&gt;surface clutter obscures upper 1–10 m regolith&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10.5;fontColor=#334155;align=center;verticalAlign=middle;whiteSpace=wrap;lineSpacing=1.2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="686" width="240" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Downward Radar Sounder Pulse Signal -->
+        <mxCell id="radarSounderBeam" value="&lt;i&gt;SHARAD 15–25 MHz Chirp Sounder ↓&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=9.5;fontStyle=2;fontColor=#0369A1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="722" width="240" height="16" as="geometry" />
+        </mxCell>
+        <!-- Dielectric Reflector Horizon Line -->
+        <mxCell id="reflectorLine" value="" style="line;strokeWidth=2;dashed=1;strokeColor=#0284C7;" vertex="1" parent="1">
+          <mxGeometry x="95" y="744" width="240" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="reflectorText" value="&lt;b&gt;Dielectric Reflector Horizon (Δε&apos; ≈ 2.4–4.9)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=9.5;fontColor=#0369A1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="748" width="240" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Basaltic Bedrock Basement -->
+        <mxCell id="bedrock" value="&lt;b&gt;Basaltic Bedrock Basement (ε&apos; ≈ 5.5–8.0)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#1E293B;fontFamily=Helvetica;fontSize=10.5;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="772" width="240" height="53" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL A: COLUMN 2 (SENSING LIMITS) ===================== -->
+        <!-- Card 1: Shallow Sensing Reach (0–1 m) -->
+        <mxCell id="card1" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#0284C7;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="365" y="148" width="240" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="card1Title" value="&lt;b&gt;Shallow Nuclear &amp;amp; Optical Reach&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12.5;fontStyle=1;fontColor=#0369A1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="365" y="152" width="240" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="card1Text" value="• &lt;b&gt;Odyssey GRS/HEND:&lt;/b&gt; epithermal neutrons;&lt;br&gt;  H moderation effective strictly at &amp;lt; 1 m&lt;br&gt;• &lt;b&gt;MRO HiRISE:&lt;/b&gt; crater excavations (0.25–0.9 m)&lt;br&gt;• &lt;b&gt;Phoenix Lander:&lt;/b&gt; in-situ trench proof (0.05 m)" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10.5;fontColor=#334155;align=left;verticalAlign=top;whiteSpace=wrap;lineSpacing=1.25;" vertex="1" parent="1">
+          <mxGeometry x="372" y="171" width="226" height="54" as="geometry" />
+        </mxCell>
+
+        <!-- Card 2: Blind Zone / No Direct Coverage (1–10 m) -->
+        <mxCell id="card2" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFF1F2;strokeColor=#DC2626;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="230" width="240" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="card2Title" value="&lt;b&gt;NO DIRECT ORBITAL COVERAGE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=13.5;fontStyle=1;fontColor=#991B1B;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="card2Sub" value="&lt;b&gt;Physical Causes of the 1–10 m Gap:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11.5;fontStyle=1;fontColor=#7F1D1D;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="376" y="272" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="card2Text" value="&lt;b&gt;1. Neutron Moderation Cutoff:&lt;/b&gt;&lt;br&gt;Hydrogen moderates epithermal flux strictly in the top ~1 m; deeper ice produces zero surface suppression.&lt;br&gt;&lt;br&gt;&lt;b&gt;2. Radar Clutter &amp;amp; Pulse Length:&lt;/b&gt;&lt;br&gt;SHARAD pulse (~15 m free-space) &amp;amp; surface clutter obscure the uppermost 10–15 m.&lt;br&gt;&lt;br&gt;&lt;b&gt;3. Crater Excavation Geometry:&lt;/b&gt;&lt;br&gt;Fresh craters rarely sample 1–10 m without extensive fall-back debris.&lt;br&gt;&lt;br&gt;&lt;b&gt;Criticality for In-Situ Exploration:&lt;/b&gt;&lt;br&gt;This unobserved gap contains the primary mechanical drilling depth for human water extraction." style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10.5;fontColor=#4C0519;align=left;verticalAlign=top;whiteSpace=wrap;lineSpacing=1.28;" vertex="1" parent="1">
+          <mxGeometry x="375" y="298" width="220" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Card 3: Orbital Radar Sounders (> 15 m) -->
+        <mxCell id="card3" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#0284C7;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="365" y="640" width="240" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="card3Title" value="&lt;b&gt;Orbital Radar Sounders (&amp;gt; 15 m)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12.5;fontStyle=1;fontColor=#0369A1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="365" y="648" width="240" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="card3Text" value="• &lt;b&gt;MRO SHARAD:&lt;/b&gt; 15–25 MHz chirp (~15 m res)&lt;br&gt;• &lt;b&gt;MEX MARSIS:&lt;/b&gt; 1.8–5.0 MHz sounder&lt;br&gt;&lt;br&gt;Resolves dielectric boundary reflections strictly at depths &amp;gt; 15–20 m;&lt;br&gt;&lt;b&gt;blind to upper 1–10 m regolith overburden.&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#334155;align=left;verticalAlign=top;whiteSpace=wrap;lineSpacing=1.3;" vertex="1" parent="1">
+          <mxGeometry x="374" y="678" width="222" height="135" as="geometry" />
+        </mxCell>
+
+        <!-- Alignment Tie Lines Between Column 1 and Column 2 -->
+        <mxCell id="tie1" value="" style="line;strokeWidth=1;dashed=1;strokeColor=#94A3B8;" vertex="1" parent="1">
+          <mxGeometry x="335" y="150" width="30" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="tie2" value="" style="line;strokeWidth=1;dashed=1;strokeColor=#94A3B8;" vertex="1" parent="1">
+          <mxGeometry x="335" y="230" width="30" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="tie3" value="" style="line;strokeWidth=1;dashed=1;strokeColor=#94A3B8;" vertex="1" parent="1">
+          <mxGeometry x="335" y="590" width="30" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="tie4" value="" style="line;strokeWidth=1;dashed=1;strokeColor=#94A3B8;" vertex="1" parent="1">
+          <mxGeometry x="335" y="640" width="30" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="tie5" value="" style="line;strokeWidth=1;dashed=1;strokeColor=#94A3B8;" vertex="1" parent="1">
+          <mxGeometry x="335" y="825" width="30" height="2" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom Synthesis Callout in Panel a: Clean 2-Line Wrap With Zero Orphans -->
+        <mxCell id="aCallout" value="&lt;b&gt;The PI-BIA Solution:&lt;/b&gt; Physics-constrained Bayesian downscaling bridges the multi-scale spatial gap&lt;br&gt;by coupling epithermal neutron flux (&amp;lt; 1 m) with MOLA topography and empirical impact excavations." style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#475569;strokeWidth=1.5;fontFamily=Helvetica;fontSize=10.5;fontColor=#0F172A;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=6;" vertex="1" parent="1">
+          <mxGeometry x="95" y="840" width="510" height="68" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL B: HEADER ===================== -->
+        <mxCell id="bLabel" value="b" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=24;fontStyle=1;fontColor=#0F172A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="648" y="38" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="bTitle" value="Physics-informed Bayesian inversion architecture (PI-BIA)" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=16.5;fontStyle=1;fontColor=#0F172A;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="688" y="40" width="600" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bSub" value="End-to-end framework integrating multi-modal planetary sensing, thermodynamic constraints, and uncertainty quantification" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11.5;fontStyle=2;fontColor=#64748B;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="688" y="70" width="850" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL B: COMPACT STAGES (HEIGHT REDUCED TO 310 px) ===================== -->
+        <!-- Box 1: Multi-Modal Inputs -->
+        <mxCell id="box1" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E3A8A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="142" width="236" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="box1Head" value="&lt;b&gt;1 · Multi-Modal Inputs&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#1E3A8A;strokeColor=none;fontFamily=Helvetica;fontSize=13.5;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="142" width="236" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="box1Sub" value="&lt;i&gt;NASA PDS Archives &amp;amp; In-Situ Benchmarks&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10.5;fontColor=#64748B;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="176" width="236" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="box1Div" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="196" width="216" height="1.5" as="geometry" />
+        </mxCell>
+        <mxCell id="box1Body" value="&lt;div style=&quot;font-size:10.5px; line-height:1.24;&quot;&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Orbital Remote Sensing:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:5px;&quot;&gt;
+    &lt;div style=&quot;font-weight:bold; color:#0F172A;&quot;&gt;• MGS MOLA MEGDR Topography&lt;/div&gt;
+    &lt;div style=&quot;margin-left:9px; color:#334155; font-size:10px;&quot;&gt;64 pix/deg global grid (926 m/pix)&lt;br&gt;Elevation: −4995 to −2804 m&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:6px;&quot;&gt;
+    &lt;div style=&quot;font-weight:bold; color:#0F172A;&quot;&gt;• Mars Odyssey GRS / HEND&lt;/div&gt;
+    &lt;div style=&quot;margin-left:9px; color:#334155; font-size:10px;&quot;&gt;Corrected Epithermal Neutron Flux (CEPI)&lt;br&gt;Spatial resolution: ~5° FWHM (~300 km)&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Authentic Benchmarks (N = 26):&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:3px;&quot;&gt;
+    &lt;div style=&quot;color:#0F172A;&quot;&gt;&lt;font color=&quot;#0284C7&quot;&gt;●&lt;/font&gt; &lt;b&gt;Fresh Ice Craters (n = 15)&lt;/b&gt;&lt;/div&gt;
+    &lt;div style=&quot;margin-left:9px; color:#334155; font-size:10px;&quot;&gt;HiRISE excavations (0.25–0.90 m)&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:3px;&quot;&gt;
+    &lt;div style=&quot;color:#0F172A;&quot;&gt;&lt;font color=&quot;#0284C7&quot;&gt;■&lt;/font&gt; &lt;b&gt;Phoenix Lander Trench (n = 1)&lt;/b&gt;&lt;/div&gt;
+    &lt;div style=&quot;margin-left:9px; color:#334155; font-size:10px;&quot;&gt;In-situ ice anchor (0.05 m depth)&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px;&quot;&gt;
+    &lt;div style=&quot;color:#0F172A;&quot;&gt;&lt;font color=&quot;#DC2626&quot;&gt;■&lt;/font&gt; &lt;b&gt;Non-Icy Controls (n = 10)&lt;/b&gt;&lt;/div&gt;
+    &lt;div style=&quot;margin-left:9px; color:#334155; font-size:10px;&quot;&gt;Verified dry craters (Dundas 2014 / HiRISE)&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;" style="text;html=1;fontFamily=Helvetica;align=left;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="208" width="216" height="236" as="geometry" />
+        </mxCell>
+
+        <!-- Box 2: Spatial Preprocessing -->
+        <mxCell id="box2" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B45309;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="944" y="142" width="236" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="box2Head" value="&lt;b&gt;2 · Spatial Preprocessing&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#B45309;strokeColor=none;fontFamily=Helvetica;fontSize=13.5;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="944" y="142" width="236" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="box2Sub" value="&lt;i&gt;Co-Registered Multi-Modal Spatial Cube&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10.5;fontColor=#64748B;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="944" y="176" width="236" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="box2Div" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="954" y="196" width="216" height="1.5" as="geometry" />
+        </mxCell>
+        <mxCell id="box2Body" value="&lt;div style=&quot;font-size:10.5px; line-height:1.24;&quot;&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Arcadia Study Corridor:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:5px; color:#334155; font-size:10px;&quot;&gt;
+    • Latitude: 37°N to 50°N &amp;nbsp;|&amp;nbsp; Lon: 180°E to 205°E&lt;br&gt;
+    • High-res grid: 832 × 1600 cells (1.33M pixels)
+  &lt;/div&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Derived Geomorphology:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:5px; color:#334155; font-size:10px;&quot;&gt;
+    • &lt;b&gt;Elevation:&lt;/b&gt; z from MOLA MEGDR datum&lt;br&gt;
+    • &lt;b&gt;Slope gradient:&lt;/b&gt; θ = arctan(|∇z|), mean: 0.36°&lt;br&gt;
+    • &lt;b&gt;CEPI flux:&lt;/b&gt; smooth bicubic to 64 pix/deg
+  &lt;/div&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Standardized Feature Vector:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; color:#334155; font-size:10px;&quot;&gt;
+    • &lt;b&gt;x&lt;/b&gt; = [φ, λ, z, θ, Φ&lt;sub&gt;epi&lt;/sub&gt;]&lt;sup&gt;T&lt;/sup&gt; ∈ ℝ&lt;sup&gt;5&lt;/sup&gt; (φ: lat, Φ&lt;sub&gt;epi&lt;/sub&gt;: CEPI)&lt;br&gt;
+    • Robust z-score: &lt;b&gt;x̃&lt;/b&gt; = (&lt;b&gt;x&lt;/b&gt; − &lt;b&gt;μ&lt;/b&gt;) / &lt;b&gt;σ&lt;/b&gt; (no feature clamping)
+  &lt;/div&gt;
+&lt;/div&gt;" style="text;html=1;fontFamily=Helvetica;align=left;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="954" y="208" width="216" height="236" as="geometry" />
+        </mxCell>
+
+        <!-- Box 3: PI-BIA Inversion -->
+        <mxCell id="box3" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0D9488;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1238" y="142" width="236" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="box3Head" value="&lt;b&gt;3 · PI-BIA Inversion&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#0D9488;strokeColor=none;fontFamily=Helvetica;fontSize=13.5;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1238" y="142" width="236" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="box3Sub" value="&lt;i&gt;Dual-Stage Physics Engine &amp;amp; Uncertainty&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10.5;fontColor=#64748B;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1238" y="176" width="236" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="box3Div" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1248" y="196" width="216" height="1.5" as="geometry" />
+        </mxCell>
+        <mxCell id="box3Body" value="&lt;div style=&quot;font-size:10.5px; line-height:1.24;&quot;&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Stage I: Ice Detection P(ice)&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:5px; color:#334155; font-size:10px;&quot;&gt;
+    • Physics-Constrained Logistic Model&lt;br&gt;
+    • Monotonicity Bounds: β&lt;sub&gt;CEPI&lt;/sub&gt; ≤ 0, β&lt;sub&gt;lat&lt;/sub&gt; ≥ 0&lt;br&gt;
+    • Bounded L-BFGS-B optimization (λ = 0.5)
+  &lt;/div&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Stage II: Depth Inversion D(x)&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:5px; color:#334155; font-size:10px;&quot;&gt;
+    • Bayesian Ridge (calibrated on n = 16 ice sites)&lt;br&gt;
+    • Predictive posterior: D ~ 𝒩(μ&lt;sub&gt;D&lt;/sub&gt;, σ&lt;sub&gt;D&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;)&lt;br&gt;
+    • Physical lower bound: D ≥ 0.05 m
+  &lt;/div&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Laplace Epistemic Uncertainty:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; color:#334155; font-size:10px;&quot;&gt;
+    • Laplace Hessian &lt;b&gt;H&lt;/b&gt; = ∇&lt;sup&gt;2&lt;/sup&gt;(−log p)&lt;br&gt;
+    • Covariance: &lt;b&gt;Σ&lt;/b&gt; = (&lt;b&gt;H&lt;/b&gt; + λ&lt;b&gt;I&lt;/b&gt;)&lt;sup&gt;−1&lt;/sup&gt;&lt;br&gt;
+    • Epistemic variance: σ&lt;sub&gt;prob&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; = (∇P)&lt;sup&gt;T&lt;/sup&gt;&lt;b&gt;Σ&lt;/b&gt;(∇P)
+  &lt;/div&gt;
+&lt;/div&gt;" style="text;html=1;fontFamily=Helvetica;align=left;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1248" y="208" width="216" height="236" as="geometry" />
+        </mxCell>
+
+        <!-- Box 4: Outputs & Validation -->
+        <mxCell id="box4" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="142" width="236" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="box4Head" value="&lt;b&gt;4 · Outputs &amp;amp; Validation&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#15803D;strokeColor=none;fontFamily=Helvetica;fontSize=13.5;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="142" width="236" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="box4Sub" value="&lt;i&gt;Regional Grids &amp;amp; Operational Artifacts&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10.5;fontColor=#64748B;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="176" width="236" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="box4Div" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1542" y="196" width="216" height="1.5" as="geometry" />
+        </mxCell>
+        <mxCell id="box4Body" value="&lt;div style=&quot;font-size:10.5px; line-height:1.24;&quot;&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Regional Planetary Grids:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:5px; color:#334155; font-size:10px;&quot;&gt;
+    • Occurrence probability grid P(ice)&lt;br&gt;
+    • Ice-table depth raster D(x, y) (m)&lt;br&gt;
+    • Laplace epistemic uncertainty σ&lt;sub&gt;prob&lt;/sub&gt;&lt;br&gt;
+    • Resource Accessibility Index (RAI):&lt;br&gt;
+    &#160;&#160;&lt;span style=&quot;font-size:9.5px;&quot;&gt;RAI = P(ice) · e&lt;sup&gt;−D/1.25&lt;/sup&gt; · f(θ) · η&lt;sub&gt;EDL&lt;/sub&gt; · (1 − 1.5 σ&lt;sub&gt;prob&lt;/sub&gt;)&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Candidate Landing Sites:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; margin-bottom:5px; color:#334155; font-size:10px;&quot;&gt;
+    • Top-5 RAI-ranked landing sites&lt;br&gt;
+    • Criteria: elevation &amp;lt; −3900 m, slope &amp;lt; 1.0°
+  &lt;/div&gt;
+  &lt;div style=&quot;font-weight:bold; color:#0F172A; margin-bottom:2px;&quot;&gt;Scientific Verification Deliverables:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:2px; color:#334155; font-size:10px;&quot;&gt;
+    • Complete data cube (&lt;b&gt;.npz&lt;/b&gt; &amp;amp; &lt;b&gt;.json&lt;/b&gt;)&lt;br&gt;
+    • Stratified CV &amp;amp; LOOCV benchmark validation&lt;br&gt;
+    • Performance metrics tabulated in scorecard below
+  &lt;/div&gt;
+&lt;/div&gt;" style="text;html=1;fontFamily=Helvetica;align=left;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1542" y="208" width="216" height="236" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL B: FLOW ARROWS ===================== -->
+        <mxCell id="fa12" style="edgeStyle=none;endArrow=blockThin;endFill=1;strokeColor=#475569;strokeWidth=2.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="box1" target="box2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fa23" style="edgeStyle=none;endArrow=blockThin;endFill=1;strokeColor=#475569;strokeWidth=2.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="box2" target="box3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fa34" style="edgeStyle=none;endArrow=blockThin;endFill=1;strokeColor=#475569;strokeWidth=2.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="box3" target="box4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL B: GENERALIZATION ASSESSMENT LOOP ===================== -->
+        <mxCell id="fbLoop" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;strokeColor=#0D9488;strokeWidth=2;endArrow=blockThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="box4" target="box3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="480" />
+              <mxPoint x="1356" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fbBadge" value="&lt;b&gt;Stratified 5-Fold &amp;amp; LOOCV Generalization Assessment&lt;/b&gt;" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0D9488;strokeWidth=1.5;fontFamily=Helvetica;fontSize=10;fontColor=#0D9488;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="468" width="256" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== PANEL B: EXPANDED FORMULATION & COMPLETE SCORECARD ===================== -->
+        <!-- Left: Model Formulation Card -->
+        <mxCell id="formCard" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="650" y="512" width="708" height="396" as="geometry" />
+        </mxCell>
+        <mxCell id="formTitle" value="&lt;b&gt;Mathematical Formulation &amp;amp; Bayesian Uncertainty Framework&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=13.5;fontStyle=1;fontColor=#0F172A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="668" y="522" width="450" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="formSub" value="&lt;i&gt;β&lt;sub&gt;CEPI&lt;/sub&gt; ≤ 0, β&lt;sub&gt;lat&lt;/sub&gt; ≥ 0 &amp;nbsp;|&amp;nbsp; &lt;b&gt;H&lt;/b&gt; = ∇&lt;sup&gt;2&lt;/sup&gt;(−log p)&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#64748B;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="523" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="formDiv" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="668" y="548" width="672" height="1.5" as="geometry" />
+        </mxCell>
+        <mxCell id="formEquations" value="&lt;div style=&quot;font-size:12.5px; line-height:1.48; color:#0F172A;&quot;&gt;
+  &lt;div style=&quot;font-weight:bold; font-size:13.5px; color:#0F172A; margin-bottom:5px;&quot;&gt;1 · Physics-Constrained Logistic Ice Detection Classifier:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:14px; margin-bottom:14px;&quot;&gt;
+    P(ice = 1 | &lt;b&gt;x&lt;/b&gt;) = σ(β&lt;sub&gt;0&lt;/sub&gt; + &lt;b&gt;β&lt;/b&gt;&lt;sup&gt;T&lt;/sup&gt;&lt;b&gt;x̃&lt;/b&gt;) = 1 / [1 + exp(−(β&lt;sub&gt;0&lt;/sub&gt; + &lt;b&gt;β&lt;/b&gt;&lt;sup&gt;T&lt;/sup&gt;&lt;b&gt;x̃&lt;/b&gt;))], &amp;nbsp;&amp;nbsp;&lt;b&gt;s.t.&lt;/b&gt;&amp;nbsp;&amp;nbsp;β&lt;sub&gt;CEPI&lt;/sub&gt; ≤ 0, &amp;nbsp;β&lt;sub&gt;lat&lt;/sub&gt; ≥ 0&lt;br&gt;
+    ℒ(&lt;b&gt;β&lt;/b&gt;, β&lt;sub&gt;0&lt;/sub&gt;) = −∑&lt;sub&gt;i=1&lt;/sub&gt;&lt;sup&gt;N&lt;/sup&gt; [ y&lt;sub&gt;i&lt;/sub&gt; ln P&lt;sub&gt;i&lt;/sub&gt; + (1 − y&lt;sub&gt;i&lt;/sub&gt;) ln(1 − P&lt;sub&gt;i&lt;/sub&gt;) ] + (λ/2) ||&lt;b&gt;β&lt;/b&gt;||&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; &amp;nbsp;&amp;nbsp;(λ = 0.5, bounded L-BFGS-B)&lt;br&gt;
+    &lt;span style=&quot;color:#64748B; font-size:11px;&quot;&gt;Standardized features &lt;b&gt;x̃&lt;/b&gt; = [lat, lon, z&lt;sub&gt;MOLA&lt;/sub&gt;, θ&lt;sub&gt;slope&lt;/sub&gt;, Φ&lt;sub&gt;CEPI&lt;/sub&gt;]&lt;sup&gt;T&lt;/sup&gt; ∈ ℝ&lt;sup&gt;5&lt;/sup&gt; with physical gradient monotonicity&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div style=&quot;font-weight:bold; font-size:13.5px; color:#0F172A; margin-top:12px; margin-bottom:5px;&quot;&gt;2 · Laplace Epistemic Uncertainty &amp;amp; Bayesian Depth Inversion:&lt;/div&gt;
+  &lt;div style=&quot;margin-left:14px; margin-bottom:14px;&quot;&gt;
+    &lt;b&gt;Σ&lt;/b&gt;&lt;sub&gt;Laplace&lt;/sub&gt; = (&lt;b&gt;H&lt;/b&gt; + λ&lt;b&gt;I&lt;/b&gt;)&lt;sup&gt;−1&lt;/sup&gt;, &amp;nbsp;&amp;nbsp;&lt;b&gt;H&lt;/b&gt; = ∇&lt;sub&gt;&lt;b&gt;θ&lt;/b&gt;&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;(−ln p(𝒟 | &lt;b&gt;θ&lt;/b&gt;))|&lt;sub&gt;&lt;b&gt;θ̂&lt;/b&gt;&lt;sub&gt;MAP&lt;/sub&gt;&lt;/sub&gt;, &amp;nbsp;&amp;nbsp;σ&lt;sub&gt;prob&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;(&lt;b&gt;x&lt;/b&gt;) = (∇&lt;sub&gt;&lt;b&gt;θ&lt;/b&gt;&lt;/sub&gt; P)&lt;sup&gt;T&lt;/sup&gt; &lt;b&gt;Σ&lt;/b&gt;&lt;sub&gt;Laplace&lt;/sub&gt; (∇&lt;sub&gt;&lt;b&gt;θ&lt;/b&gt;&lt;/sub&gt; P)&lt;br&gt;
+    Stage II Analytical Posterior: &amp;nbsp;&lt;b&gt;Σ&lt;/b&gt;&lt;sub&gt;w&lt;/sub&gt; = (λ&lt;sub&gt;noise&lt;/sub&gt; &lt;b&gt;X&lt;/b&gt;&lt;sup&gt;T&lt;/sup&gt;&lt;b&gt;X&lt;/b&gt; + α&lt;b&gt;I&lt;/b&gt;)&lt;sup&gt;−1&lt;/sup&gt;, &amp;nbsp;&amp;nbsp;&lt;b&gt;μ&lt;/b&gt;&lt;sub&gt;w&lt;/sub&gt; = λ&lt;sub&gt;noise&lt;/sub&gt; &lt;b&gt;Σ&lt;/b&gt;&lt;sub&gt;w&lt;/sub&gt; &lt;b&gt;X&lt;/b&gt;&lt;sup&gt;T&lt;/sup&gt; &lt;b&gt;y&lt;/b&gt;&lt;sub&gt;depth&lt;/sub&gt;&lt;br&gt;
+    D(&lt;b&gt;x&lt;/b&gt;) ~ 𝒩(&lt;b&gt;x̃&lt;/b&gt;&lt;sup&gt;T&lt;/sup&gt;&lt;b&gt;μ&lt;/b&gt;&lt;sub&gt;w&lt;/sub&gt;, &amp;nbsp;σ&lt;sub&gt;noise&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;b&gt;x̃&lt;/b&gt;&lt;sup&gt;T&lt;/sup&gt;&lt;b&gt;Σ&lt;/b&gt;&lt;sub&gt;w&lt;/sub&gt;&lt;b&gt;x̃&lt;/b&gt;) &amp;nbsp;&amp;nbsp;&lt;b&gt;with physical permafrost bound&lt;/b&gt; D(&lt;b&gt;x&lt;/b&gt;) ≥ 0.05 m
+  &lt;/div&gt;
+
+  &lt;div style=&quot;font-weight:bold; font-size:13.5px; color:#0F172A; margin-top:12px; margin-bottom:5px;&quot;&gt;3 · Operational Resource Accessibility Index (RAI):&lt;/div&gt;
+  &lt;div style=&quot;margin-left:14px;&quot;&gt;
+    RAI(&lt;b&gt;x&lt;/b&gt;) = P(ice = 1 | &lt;b&gt;x&lt;/b&gt;) · exp(−D(&lt;b&gt;x&lt;/b&gt;) / 1.25 m) · f&lt;sub&gt;slope&lt;/sub&gt;(θ) · η&lt;sub&gt;EDL&lt;/sub&gt;(z) · (1 − 1.5 σ&lt;sub&gt;prob&lt;/sub&gt;(&lt;b&gt;x&lt;/b&gt;))&lt;br&gt;
+    &lt;span style=&quot;color:#64748B; font-size:11px;&quot;&gt;where &amp;nbsp;f&lt;sub&gt;slope&lt;/sub&gt;(θ) = max(1 − θ / 10°, 0), &amp;nbsp;&amp;nbsp;η&lt;sub&gt;EDL&lt;/sub&gt;(z) = clip((−z − 1500 m) / 2500 m, 0, 1)&lt;br&gt;
+    (1 − 1.5 σ&lt;sub&gt;prob&lt;/sub&gt;) penalizes epistemic variance; &amp;nbsp;exp(−D / 1.25 m) models mechanical drilling limit (D&lt;sub&gt;0&lt;/sub&gt; = 1.25 m)&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12.5;fontColor=#0F172A;align=left;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="668" y="556" width="672" height="340" as="geometry" />
+        </mxCell>
+
+        <!-- Right: Empirical Validation Scorecard Table -->
+        <mxCell id="scoreCard" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1378" y="512" width="390" height="396" as="geometry" />
+        </mxCell>
+        <mxCell id="scoreTitle" value="&lt;b&gt;Empirical Validation Scorecard&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=13.5;fontStyle=1;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1378" y="520" width="390" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="scoreSub" value="&lt;i&gt;Calibrated on N = 26 authentic Martian benchmark sites&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=10.5;fontColor=#64748B;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1378" y="542" width="390" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="scoreDiv" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="562" width="366" height="1.5" as="geometry" />
+        </mxCell>
+
+        <!-- Complete 8-Row Validation Table (Ample Height to Prevent Clipping) -->
+        <mxCell id="scoreTable" value="&lt;table style=&quot;width:100%; border-collapse:collapse; font-family:Helvetica; font-size:12px; color:#1E293B;&quot;&gt;
+  &lt;tr style=&quot;border-bottom:1.5px solid #CBD5E1; background-color:#F1F5F9;&quot;&gt;
+    &lt;th style=&quot;padding:5px 6px; text-align:left; font-weight:bold; color:#0F172A; font-size:10.5px; text-transform:uppercase;&quot;&gt;Validation Metric&lt;/th&gt;
+    &lt;th style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A; font-size:10.5px; text-transform:uppercase;&quot;&gt;Value&lt;/th&gt;
+    &lt;th style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#64748B; font-size:10px;&quot;&gt;Method / Scale&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr style=&quot;border-bottom:1px solid #E2E8F0;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:left;&quot;&gt;Benchmark Sites&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A;&quot;&gt;N = 26&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; color:#64748B; font-size:10px;&quot;&gt;16 ice / 10 dry&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr style=&quot;background-color:#F8FAFC; border-bottom:1px solid #E2E8F0;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:left;&quot;&gt;ROC-AUC&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A;&quot;&gt;0.931&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; color:#64748B; font-size:10px;&quot;&gt;Binary discrimination&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr style=&quot;border-bottom:1px solid #E2E8F0;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:left;&quot;&gt;In-Sample F1&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A;&quot;&gt;0.867&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; color:#64748B; font-size:10px;&quot;&gt;Decision thresh P = 0.50&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr style=&quot;background-color:#F8FAFC; border-bottom:1px solid #E2E8F0;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:left;&quot;&gt;5-Fold Stratified CV F1&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A;&quot;&gt;0.786 ± 0.072&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; color:#64748B; font-size:10px;&quot;&gt;Out-of-fold generalization&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr style=&quot;border-bottom:1px solid #E2E8F0;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:left;&quot;&gt;Depth LOOCV RMSE&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A;&quot;&gt;0.0955 m&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; color:#64748B; font-size:10px;&quot;&gt;Leave-one-out CV (9.6 cm)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr style=&quot;background-color:#F8FAFC; border-bottom:1px solid #E2E8F0;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:left;&quot;&gt;Depth In-Sample MAE&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A;&quot;&gt;0.0449 m&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; color:#64748B; font-size:10px;&quot;&gt;Mean absolute error (4.5 cm)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr style=&quot;border-bottom:1px solid #E2E8F0;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:left;&quot;&gt;Calibration ECE&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A;&quot;&gt;0.123&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; color:#64748B; font-size:10px;&quot;&gt;10-bin expected error&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr style=&quot;background-color:#F8FAFC;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:left;&quot;&gt;Laplace Epistemic σ&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; font-weight:bold; color:#0F172A;&quot;&gt;0.146 ± 0.047&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px; text-align:right; color:#64748B; font-size:10px;&quot;&gt;Dynamic posterior&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="568" width="376" height="240" as="geometry" />
+        </mxCell>
+
+        <!-- Top Landing Candidate Banner - Shifted Up to y=816 (height 68) -->
+        <mxCell id="topCandidateBadge" value="&lt;b style=&quot;font-size:12px;&quot;&gt;Top Landing Candidate: Arcadia Site #1&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px; color:#047857; line-height:1.35;&quot;&gt;48.49°N, 190.03°E &amp;nbsp;|&amp;nbsp; Elev: −4071 m &amp;nbsp;|&amp;nbsp; Depth: 0.52 m &amp;nbsp;|&amp;nbsp; RAI: 0.533&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:9.5px; color:#065F46; line-height:1.3; font-style:italic;&quot;&gt;Primary target: ultra-flat plain, max ice probability, sub-meter access&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#10B981;strokeWidth=1.2;fontFamily=Helvetica;fontSize=11.5;fontColor=#065F46;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="818" width="366" height="64" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

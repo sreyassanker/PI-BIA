@@ -1,0 +1,107 @@
+{
+  "experiment": "Physics-Constrained Bayesian Inversion (PI-BIA)",
+  "data_sources": "NASA PDS MOLA/GRS and published catalogs (Dundas et al. 2014, Byrne et al. 2009, Smith et al. 2009)",
+  "ground_truth_samples": {
+    "ice_impact_craters": 15,
+    "dry_control_craters": 10,
+    "phoenix_in_situ_anchor": 1,
+    "total_benchmark_samples": 26
+  },
+  "feature_extraction": "Global MOLA 64/16 pix/deg and global Odyssey GRS at benchmark coordinates",
+  "physics_constraints": {
+    "d_Pice_d_CEPI": "<= 0 (epithermal neutron flux suppression by hydrogen)",
+    "d_Pice_d_lat": ">= 0 (thermal cold-trapping stability)"
+  },
+  "model_parameters": {
+    "classifier_weights": {
+      "latitude": 2.135851783409341,
+      "longitude": 0.41894321088836356,
+      "elevation": -0.5782610293866209,
+      "slope": -0.3135664381595743,
+      "cepi_neutrons": -0.20453173817252113,
+      "bias": 1.216968017969275
+    },
+    "depth_bayesian_ridge_weights": {
+      "latitude": -0.153755837197559,
+      "longitude": 0.051085986004013303,
+      "elevation": -0.012212159306203178,
+      "slope": -0.06810715068771378,
+      "cepi_neutrons": 0.0062458778917632764,
+      "intercept": 0.49853737136743936
+    }
+  },
+  "metrics_PI_BIA": {
+    "ROC_AUC": 0.9312499999999999,
+    "F1_Score": 0.8666666666666667,
+    "Brier_Score": 0.1209131652384668,
+    "Depth_RMSE_m": 0.06562603748066845,
+    "Depth_MAE_m": 0.044910807956945874,
+    "Depth_LOOCV_RMSE_m": 0.09553115328954889,
+    "Expected_Calibration_Error": 0.12325257243607057,
+    "5fold_CV_F1_mean": 0.7861904761904762,
+    "5fold_CV_F1_std": 0.0719094921181435
+  },
+  "top_landing_sites_arcadia": [
+    {
+      "rank": 1,
+      "lat": 48.49,
+      "lon": 190.03,
+      "elevation_m": -4071,
+      "slope_deg": 0.0,
+      "predicted_ice_prob": 0.917,
+      "predicted_ice_depth_m": 0.52,
+      "epistemic_uncertainty": 0.079,
+      "depth_uncertainty_m": 0.08,
+      "RAI_score": 0.533
+    },
+    {
+      "rank": 2,
+      "lat": 47.43,
+      "lon": 198.67,
+      "elevation_m": -4001,
+      "slope_deg": 0.03,
+      "predicted_ice_prob": 0.898,
+      "predicted_ice_depth_m": 0.55,
+      "epistemic_uncertainty": 0.093,
+      "depth_uncertainty_m": 0.08,
+      "RAI_score": 0.497
+    },
+    {
+      "rank": 3,
+      "lat": 46.42,
+      "lon": 193.72,
+      "elevation_m": -3994,
+      "slope_deg": 0.0,
+      "predicted_ice_prob": 0.861,
+      "predicted_ice_depth_m": 0.57,
+      "epistemic_uncertainty": 0.108,
+      "depth_uncertainty_m": 0.08,
+      "RAI_score": 0.458
+    },
+    {
+      "rank": 4,
+      "lat": 45.42,
+      "lon": 190.34,
+      "elevation_m": -4030,
+      "slope_deg": 0.03,
+      "predicted_ice_prob": 0.817,
+      "predicted_ice_depth_m": 0.58,
+      "epistemic_uncertainty": 0.12,
+      "depth_uncertainty_m": 0.08,
+      "RAI_score": 0.419
+    },
+    {
+      "rank": 5,
+      "lat": 44.41,
+      "lon": 187.02,
+      "elevation_m": -4055,
+      "slope_deg": 0.0,
+      "predicted_ice_prob": 0.759,
+      "predicted_ice_depth_m": 0.6,
+      "epistemic_uncertainty": 0.128,
+      "depth_uncertainty_m": 0.08,
+      "RAI_score": 0.378
+    }
+  ],
+  "scientific_disclosure": "Model parameters are constrained by planetary physics and calibrated on 26 published benchmark impact sites and in-situ lander ground truth. In-sample metrics reflect physical separability in the observed Martian range, and out-of-domain extrapolation should be validated with future high-resolution orbital radar (e.g., Mars Ice Mapper) or in-situ sounding."
+}

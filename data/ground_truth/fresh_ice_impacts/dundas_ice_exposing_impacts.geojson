@@ -1,0 +1,312 @@
+{
+  "type": "FeatureCollection",
+  "name": "Dundas_Ice_Exposing_Impacts_Benchmark",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.89,
+          46.35
+        ]
+      },
+      "properties": {
+        "site_id": "Dundas_02",
+        "lat": 46.35,
+        "lon": 176.89,
+        "diameter_m": 11.0,
+        "excavation_depth_m": 0.42,
+        "ice_confirmed": "Yes",
+        "region": "Arcadia Planitia",
+        "source": "Dundas et al. (2014) Table 1 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.2,
+          44.22
+        ]
+      },
+      "properties": {
+        "site_id": "Dundas_03",
+        "lat": 44.22,
+        "lon": 164.2,
+        "diameter_m": 9.5,
+        "excavation_depth_m": 0.47,
+        "ice_confirmed": "Yes",
+        "region": "Arcadia Planitia",
+        "source": "Dundas et al. (2014) Table 1 / ESP_016954"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          265.2,
+          50.51
+        ]
+      },
+      "properties": {
+        "site_id": "Dundas_04",
+        "lat": 50.51,
+        "lon": 265.2,
+        "diameter_m": 8.0,
+        "excavation_depth_m": 0.42,
+        "ice_confirmed": "Yes",
+        "region": "Acidalia Planitia",
+        "source": "Dundas et al. (2014) Table 1 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190.25,
+          39.11
+        ]
+      },
+      "properties": {
+        "site_id": "Dundas_05",
+        "lat": 39.11,
+        "lon": 190.25,
+        "diameter_m": 14.5,
+        "excavation_depth_m": 0.9,
+        "ice_confirmed": "Yes",
+        "region": "Arcadia Planitia",
+        "source": "Dundas et al. (2014) Table 1 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.01,
+          47.43
+        ]
+      },
+      "properties": {
+        "site_id": "Byrne_01",
+        "lat": 47.43,
+        "lon": 112.01,
+        "diameter_m": 10.5,
+        "excavation_depth_m": 0.5,
+        "ice_confirmed": "Yes",
+        "region": "Utopia Planitia",
+        "source": "Byrne et al. (2009)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          204.35,
+          43.88
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_01",
+        "lat": 43.88,
+        "lon": 204.35,
+        "diameter_m": 13.0,
+        "excavation_depth_m": 0.65,
+        "ice_confirmed": "Yes",
+        "region": "Arcadia Planitia",
+        "source": "NASA HiRISE ESP_025840_2240 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188.51,
+          46.14
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_02",
+        "lat": 46.14,
+        "lon": 188.51,
+        "diameter_m": 12.0,
+        "excavation_depth_m": 0.48,
+        "ice_confirmed": "Yes",
+        "region": "Arcadia Planitia",
+        "source": "NASA HiRISE ESP_016874_2265 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.22,
+          43.28
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_03",
+        "lat": 43.28,
+        "lon": 164.22,
+        "diameter_m": 10.0,
+        "excavation_depth_m": 0.45,
+        "ice_confirmed": "Yes",
+        "region": "Arcadia Planitia margin",
+        "source": "NASA HiRISE ESP_014264_2235 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.93,
+          44.33
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_04",
+        "lat": 44.33,
+        "lon": 152.93,
+        "diameter_m": 11.5,
+        "excavation_depth_m": 0.52,
+        "ice_confirmed": "Yes",
+        "region": "Phlegra Dorsa",
+        "source": "NASA HiRISE ESP_017561_2245 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          278.4,
+          50.65
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_05",
+        "lat": 50.65,
+        "lon": 278.4,
+        "diameter_m": 9.0,
+        "excavation_depth_m": 0.4,
+        "ice_confirmed": "Yes",
+        "region": "Acidalia Planitia",
+        "source": "NASA HiRISE ESP_015908_2310 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.63,
+          55.55
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_06",
+        "lat": 55.55,
+        "lon": 150.63,
+        "diameter_m": 8.5,
+        "excavation_depth_m": 0.38,
+        "ice_confirmed": "Yes",
+        "region": "Utopia margin",
+        "source": "Byrne et al. (2009) Site 1 / ESP_015926"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          194.85,
+          46.57
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_07",
+        "lat": 46.57,
+        "lon": 194.85,
+        "diameter_m": 18.0,
+        "excavation_depth_m": 0.55,
+        "ice_confirmed": "Yes",
+        "region": "Arcadia Planitia",
+        "source": "NASA HiRISE ESP_018522_2270 (Bramson et al. 2015 terraced scene)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          238.74,
+          60.97
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_08",
+        "lat": 60.97,
+        "lon": 238.74,
+        "diameter_m": 12.0,
+        "excavation_depth_m": 0.3,
+        "ice_confirmed": "Yes",
+        "region": "Vastitas Borealis",
+        "source": "NASA HiRISE ESP_019351_2415 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          231.52,
+          64.28
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_09",
+        "lat": 64.28,
+        "lon": 231.52,
+        "diameter_m": 14.0,
+        "excavation_depth_m": 0.25,
+        "ice_confirmed": "Yes",
+        "region": "Vastitas Borealis",
+        "source": "NASA HiRISE ESP_019826_2445 (scaling)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          206.17,
+          43.83
+        ]
+      },
+      "properties": {
+        "site_id": "HiRISE_Ice_10",
+        "lat": 43.83,
+        "lon": 206.17,
+        "diameter_m": 22.0,
+        "excavation_depth_m": 0.58,
+        "ice_confirmed": "Yes",
+        "region": "Arcadia Planitia",
+        "source": "NASA HiRISE ESP_035189_2240 (Bramson et al. 2015 terraced scene)"
+      }
+    }
+  ]
+}

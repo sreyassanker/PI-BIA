@@ -1,0 +1,65 @@
+PDS_VERSION_ID                 = PDS3
+
+/* FILE CHARACTERISTICS */
+RECORD_TYPE                    = FIXED_LENGTH
+RECORD_BYTES                   = 44
+FILE_RECORDS                   = 2592
+
+/* POINTERS TO DATA OBJECTS */
+^TABLE                         = "AND_04_000_015.DAT"
+
+/* IDENTIFICATION DATA ELEMENTS */
+DATA_SET_NAME                  = "ODY MARS GAMMA RAY SPECTROMETER 5 AND V2.0"
+DATA_SET_ID                    = "ODY-M-GRS-5-AND-V2.0"
+PRODUCT_ID                     = "AND_04_000_015"
+PRODUCT_TYPE                   = "AVERAGED_NEUTRON_DATA"
+PRODUCT_VERSION_ID             = "1.0"
+RELEASE_ID                     = "0075"
+
+/* DESCRIPTIVE DATA ELEMENTS */
+INSTRUMENT_HOST_NAME           = "2001 MARS ODYSSEY"
+INSTRUMENT_NAME                = "GAMMA RAY SPECTROMETER"
+SPACECRAFT_ID                  = ODY
+TARGET_NAME                    = MARS
+MISSION_PHASE_NAME             = "EXTENDED MISSION"
+START_TIME                     = 2007-12-10T00:00:00
+STOP_TIME                      = 2008-01-10T00:00:00
+START_SOLAR_LONGITUDE          = 000
+STOP_SOLAR_LONGITUDE           = 015
+SPACECRAFT_CLOCK_START_COUNT   = "225718362549"
+SPACECRAFT_CLOCK_STOP_COUNT    = "226404034158"
+PRODUCT_CREATION_TIME          = 2021-03-04T16:32:59
+
+/* DATA OBJECT DEFINITION */
+OBJECT                         = TABLE
+
+  INTERCHANGE_FORMAT           = BINARY
+  ROWS                         = 2592
+  ROW_BYTES                    = 44
+
+  /* The complete column definitions are contained in an external file */
+  /* found in the LABEL directory of the archive disk.                 */
+  
+  COLUMNS                      = 11
+  ^STRUCTURE                   = "AVG_NEUTRON_DATA_COLS.FMT"
+
+  /* DESCRIPTIVE data elements */
+
+  DESCRIPTION                  = "
+
+     The AND product contains average fluxes for epithermal, thermal,
+     and fast neutrons.  The data is presented in a table format for
+     a 5 degree by 5 degree grid. There are 36 latitude bands and 72
+     longitude bands, thus 2592 grid cells. Each cell corresponds to
+     one row in the table. The first 72 rows in the table are the
+     data for the 5 degree latitude band centered at 87.5 degrees north
+     latitude, the second 72 rows are the data for the band centered at
+     82.5 degrees north latitude, and so on. Within each band, longitude
+     increases eastward from the cell centered at 2.5 degrees east
+     longitude to the cell centered at 357.5 degrees east longitude.
+
+  "
+
+END_OBJECT                     = TABLE
+
+END

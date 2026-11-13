@@ -1,0 +1,6 @@
+Site,Latitude_deg_N,Longitude_deg_E,Elevation_m,Slope_deg,P_ice,Predicted_Depth_m,Predictive_Uncertainty_m,RAI_Score,Primary_Feature
+#1,48.49,190.03,-4071,0.0,0.917,0.52,0.08,0.533,Highest ice probability
+#2,47.43,198.67,-4001,0.03,0.898,0.55,0.08,0.497,Smooth regional plain
+#3,46.42,193.72,-3994,0.0,0.861,0.57,0.08,0.458,Central basin plain
+#4,45.42,190.34,-4030,0.03,0.817,0.58,0.08,0.419,Negligible slope hazard
+#5,44.41,187.02,-4055,0.0,0.759,0.6,0.08,0.378,Lower latitude corridor

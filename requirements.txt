@@ -1,0 +1,12 @@
+# Core scientific and numerical computing
+numpy>=1.22.0
+scipy>=1.8.0
+scikit-learn>=1.0.0
+pandas>=1.4.0
+openpyxl>=3.0.0
+
+# Plotting and visualization
+matplotlib>=3.5.0
+
+# Geospatial and shapefile handling
+pyshp>=2.3.0

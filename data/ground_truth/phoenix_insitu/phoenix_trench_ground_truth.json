@@ -1,0 +1,18 @@
+{
+  "mission": "Phoenix Mars Lander",
+  "landing_site": "Vastitas Borealis (Green Valley)",
+  "coordinates": {
+    "latitude_deg_N": 68.2188,
+    "longitude_deg_E": 234.2508
+  },
+  "physical_ground_truth": {
+    "ice_table_depth_cm": 5.0,
+    "ice_table_depth_uncertainty_cm": 3.0,
+    "ice_table_depth_range_cm": "5-15",
+    "ice_characteristics": "Pure, dense, hard water ice layer excavated in Snow White trench"
+  },
+  "publication": {
+    "citation": "Smith, P.H., et al. (2009), Science, 325, 58-62"
+  },
+  "role": "Absolute in-situ physical ground-truth anchor"
+}
